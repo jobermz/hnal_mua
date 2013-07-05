@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{708E9D5A-B391-4189-8651-8D5ADBDEF752}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>mantenimientoprueba2</RootNamespace>
+    <AssemblyName>mantenimientoprueba2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>mantenimientoprueba2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>mantenimientoprueba2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.DataAccess, Version=4.112.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\MANTENIMIENTO DE CAJA2\MANTENIMIENTO DE CAJA2\MANTENIMIENTO DE CAJA\MANTENIMIENTO DE CAJA\bin\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\black\datepicker.css" />
+    <Content Include="css\black\screen.css" />
+    <Content Include="css\blue\datepicker.css" />
+    <Content Include="css\blue\screen.css" />
+    <Content Include="css\green\datepicker.css" />
+    <Content Include="css\green\screen.css" />
+    <Content Include="css\ie.css" />
+    <Content Include="css\ie6.css" />
+    <Content Include="css\red\datepicker.css" />
+    <Content Include="css\red\screen.css" />
+    <Content Include="css\tipsy.css" />
+    <Content Include="css\wysiwyg.css" />
+    <Content Include="demo.aspx" />
+    <Content Include="gallery\1.jpg" />
+    <Content Include="gallery\1_t.jpg" />
+    <Content Include="gallery\2.jpg" />
+    <Content Include="gallery\2_t.jpg" />
+    <Content Include="gallery\3.jpg" />
+    <Content Include="gallery\3_t.jpg" />
+    <Content Include="images\bg_date_active.png" />
+    <Content Include="images\bg_error.png" />
+    <Content Include="images\bg_info.png" />
+    <Content Include="images\bg_ip.png" />
+    <Content Include="images\bg_left.jpg" />
+    <Content Include="images\bg_notification.png" />
+    <Content Include="images\bg_notification_left.png" />
+    <Content Include="images\bg_search.png" />
+    <Content Include="images\bg_success.png" />
+    <Content Include="images\bg_switch.png" />
+    <Content Include="images\bg_warning.png" />
+    <Content Include="images\bg_window_header.png" />
+    <Content Include="images\black\bg.png" />
+    <Content Include="images\black\bg_header.png" />
+    <Content Include="images\black\bg_login_window.png" />
+    <Content Include="images\black\bg_modal_window.png" />
+    <Content Include="images\black\footer_login_window.png" />
+    <Content Include="images\black\reflect.png" />
+    <Content Include="images\black\top_login_window.png" />
+    <Content Include="images\blue\2bg_header.png" />
+    <Content Include="images\blue\bg.png" />
+    <Content Include="images\blue\bg_header.png" />
+    <Content Include="images\blue\bg_login_window.png" />
+    <Content Include="images\blue\bg_modal_window.png" />
+    <Content Include="images\blue\fondor_bg.jpg" />
+    <Content Include="images\blue\footer_login_window.png" />
+    <Content Include="images\blue\reflect.png" />
+    <Content Include="images\blue\top_login_window.png" />
+    <Content Include="images\btns.png" />
+    <Content Include="images\btns_act.png" />
+    <Content Include="images\bt_g.png" />
+    <Content Include="images\bt_ga.png" />
+    <Content Include="images\bt_gh.png" />
+    <Content Include="images\fondo_login.jpg" />
+    <Content Include="images\green\bg.png" />
+    <Content Include="images\green\bg_header.png" />
+    <Content Include="images\green\bg_login_window.png" />
+    <Content Include="images\green\bg_modal_window.png" />
+    <Content Include="images\green\footer_login_window.png" />
+    <Content Include="images\green\reflect.png" />
+    <Content Include="images\green\top_login_window.png" />
+    <Content Include="images\icon_accept.png" />
+    <Content Include="images\icon_calendar.png" />
+    <Content Include="images\icon_delete.png" />
+    <Content Include="images\icon_edit.png" />
+    <Content Include="images\icon_error.png" />
+    <Content Include="images\icon_home.png" />
+    <Content Include="images\icon_info.png" />
+    <Content Include="images\icon_media.png" />
+    <Content Include="images\icon_online.png" />
+    <Content Include="images\icon_pages.png" />
+    <Content Include="images\icon_posts.png" />
+    <Content Include="images\icon_users.png" />
+    <Content Include="images\icon_warning.png" />
+    <Content Include="images\login_logo.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\red\bg.png" />
+    <Content Include="images\red\bg_header.png" />
+    <Content Include="images\red\bg_login_window.png" />
+    <Content Include="images\red\bg_modal_window.png" />
+    <Content Include="images\red\footer_login_window.png" />
+    <Content Include="images\red\reflect.png" />
+    <Content Include="images\red\top_login_window.png" />
+    <Content Include="images\shortcut\bg_shortcut.png" />
+    <Content Include="images\shortcut\bg_shortcut_a.png" />
+    <Content Include="images\shortcut\bg_shortcut_h.png" />
+    <Content Include="images\shortcut\calendar.png" />
+    <Content Include="images\shortcut\contacts.png" />
+    <Content Include="images\shortcut\home.png" />
+    <Content Include="images\shortcut\posts.png" />
+    <Content Include="images\shortcut\setting.png" />
+    <Content Include="images\shortcut\stats.png" />
+    <Content Include="images\tipsy.gif" />
+    <Content Include="images\Usuarios\predeterminado.gif" />
+    <Content Include="js\blank.gif" />
+    <Content Include="js\custom_black.js" />
+    <Content Include="js\custom_blue.js" />
+    <Content Include="js\custom_green.js" />
+    <Content Include="js\custom_red.js" />
+    <Content Include="js\excanvas.js" />
+    <Content Include="js\fancybox\blank.gif" />
+    <Content Include="js\fancybox\fancy_close.png" />
+    <Content Include="js\fancybox\fancy_loading.png" />
+    <Content Include="js\fancybox\fancy_nav_left.png" />
+    <Content Include="js\fancybox\fancy_nav_right.png" />
+    <Content Include="js\fancybox\fancy_shadow_e.png" />
+    <Content Include="js\fancybox\fancy_shadow_n.png" />
+    <Content Include="js\fancybox\fancy_shadow_ne.png" />
+    <Content Include="js\fancybox\fancy_shadow_nw.png" />
+    <Content Include="js\fancybox\fancy_shadow_s.png" />
+    <Content Include="js\fancybox\fancy_shadow_se.png" />
+    <Content Include="js\fancybox\fancy_shadow_sw.png" />
+    <Content Include="js\fancybox\fancy_shadow_w.png" />
+    <Content Include="js\fancybox\fancy_title_left.png" />
+    <Content Include="js\fancybox\fancy_title_main.png" />
+    <Content Include="js\fancybox\fancy_title_over.png" />
+    <Content Include="js\fancybox\fancy_title_right.png" />
+    <Content Include="js\fancybox\jquery.easing-1.3.pack.js" />
+    <Content Include="js\fancybox\jquery.fancybox-1.3.0.css" />
+    <Content Include="js\fancybox\jquery.fancybox-1.3.0.js" />
+    <Content Include="js\fancybox\jquery.fancybox-1.3.0.pack.js" />
+    <Content Include="js\fancybox\jquery.mousewheel-3.0.2.pack.js" />
+    <Content Include="js\hint.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\jquery.img.preload.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.tipsy.js" />
+    <Content Include="js\jwysiwyg\GPL-LICENSE.txt" />
+    <Content Include="js\jwysiwyg\jquery.wysiwyg.css" />
+    <Content Include="js\jwysiwyg\jquery.wysiwyg.gif" />
+    <Content Include="js\jwysiwyg\jquery.wysiwyg.jpg" />
+    <Content Include="js\jwysiwyg\jquery.wysiwyg.js" />
+    <Content Include="js\jwysiwyg\MIT-LICENSE.txt" />
+    <Content Include="js\jwysiwyg\README.txt" />
+    <Content Include="js\visualize\jquery.visualize.js" />
+    <Content Include="js\visualize\visualize.css" />
+    <Content Include="sinuso\dashboard_black.html" />
+    <Content Include="sinuso\dashboard_green.html" />
+    <Content Include="sinuso\dashboard_red.html" />
+    <Content Include="sinuso\login_black.html" />
+    <Content Include="sinuso\login_green.html" />
+    <Content Include="sinuso\login_red.html" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="demo.aspx.designer.vb">
+      <DependentUpon>demo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo.aspx.vb">
+      <DependentUpon>demo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\black\Thumbs.db" />
+    <None Include="images\blue\Thumbs.db" />
+    <None Include="images\EDITOR-PSD\login_logo.psd" />
+    <None Include="images\EDITOR-PSD\logo.psd" />
+    <None Include="images\EDITOR-PSD\Thumbs.db" />
+    <None Include="images\green\Thumbs.db" />
+    <None Include="images\red\Thumbs.db" />
+    <None Include="images\shortcut\Thumbs.db" />
+    <None Include="images\Thumbs.db" />
+    <None Include="images\Usuarios\Thumbs.db" />
+    <None Include="js\jwysiwyg\CHANGES" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49737</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
